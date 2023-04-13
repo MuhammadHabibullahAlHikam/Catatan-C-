@@ -2,6 +2,7 @@
 #include <cstring>
 using namespace std;
 int main(){
+	/*
 	char nama[]="hamid";
 	char prodi[]="ilkom";
 	cout<<nama<<endl;
@@ -17,6 +18,8 @@ int main(){
 	for (int i=0;i<sizeof(prodi);i++){
 		cout<<prodi[i]<<" "<<(prodi[i]=='\0'?"Null":"Not Null")<<endl;
 	}
+	*/
+	
 
 	char str[]={'i','l','k','o','m','\0'};
 	cout<<str<<endl;
@@ -27,6 +30,8 @@ int main(){
 	cin.ignore();
 	cin.get(npm,10);
 	
+	
+	/*
 	cout<<"nama : " <<nama<<endl;
 	cout<<"npm : "<<npm<<endl;
 	char karakter;
@@ -37,7 +42,10 @@ int main(){
 				cout<<karakter;
 			
 		}
-	
+		*/
+		
+		
+	/*
 	char fname[50] = "imran";
 	char lname[50]= " hamid";
 	char *fullname = strcat(fname, lname);//strcat untuk menyatukan char atau string
@@ -58,7 +66,10 @@ int main(){
 	double value3 = strtod(str3, &endptr);// mengubah str3 menjadi double
 	cout<<value3<<endl;
 	cout<<endptr<<endl;
+	*/
 	
+	
+	/*
 	char data[2][100]={"2217imran",
 					   "2257hamid"};
 	char* endptr;
@@ -67,5 +78,5 @@ int main(){
 		cout<<"nama : "<<endptr<<endl;
 		cout<<"npm : "<<value<<endl;
 		cout<<endl;
-	}
+	}*/
 }
